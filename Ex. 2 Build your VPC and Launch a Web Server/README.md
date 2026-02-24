@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: ___MohamedAsheem M____________________
+* **Register Number**: ___________21222306-160__________
+* **Date of Submission**: _______16-02-2026___________
 
 ---
 
@@ -87,31 +87,40 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
+1. A Virtual Private Cloud (VPC) was designed and created with the CIDR block 10.0.0.0/16 to establish a secure and isolated network
+environment within AWS.
+2. A public subnet was configured within the VPC with the CIDR range 10.0.1.0/24, and auto-assign public IPv4 addresses was enabled to allow
+internet connectivity for instances.
+3. An Internet Gateway was created and attached to the VPC, followed by the setup of a route table with a default route (0.0.0.0/0) pointing to
+the gateway, and the route table was associated with the public subnet.
+4. A security group was established to permit inbound SSH (port 22) and HTTP (port 80) traffic, and an EC2 instance was launched using the
+Amazon Linux 2 AMI, associated with the security group and a key pair.
+5. The Apache HTTPD web server was installed and started on the EC2 instance, a simple HTML webpage was created, and its accessibility was
+verified through the public IP address of the instance via a web browser.
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="1002" height="561" alt="image" src="https://github.com/user-attachments/assets/47d396a8-57aa-4b67-8634-356e1a6b6bfa" />
+
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1004" height="517" alt="image" src="https://github.com/user-attachments/assets/6bf328a3-37cf-4296-823a-7c2baedfc8fc" />
+<img width="1001" height="511" alt="image" src="https://github.com/user-attachments/assets/8e5f87d8-613d-4cd9-ad37-1ea564741d85" />
+
+
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="1045" height="601" alt="image" src="https://github.com/user-attachments/assets/df27210d-9f24-403c-8f47-0d41f603d8da" />
+
 
 ---
 
