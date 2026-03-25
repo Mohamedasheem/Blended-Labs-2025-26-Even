@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: MOHAMED ASHEEM M
+* **Register Number**: 212223060160
+* **Date of Submission**: 14/03/2026
 
 ---
 
@@ -37,7 +37,7 @@ The objective of this experiment is to understand how Amazon Elastic Block Store
 ### Task 1: Explore Amazon EBS
 
 Explore the Amazon EBS service through the EC2 dashboard. Observe different volume types such as General Purpose SSD (gp2/gp3), Provisioned IOPS SSD, Throughput Optimized HDD, and Cold HDD.
-
+              
 ---
 
 ### Task 2: Create an EBS Volume
@@ -77,34 +77,38 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 ---
 
 ## Workflow (Student Explanation)
+```
+1.The EC2 Dashboard was accessed through the AWS Management Console to explore the Amazon EBS volume types.
+2.A new EBS volume was created by selecting the volume type, size, and the same Availability Zone as the EC2 instance.
+3.The created EBS volume was attached to the running EC2 instance as an additional block device.
+4.The attached volume was formatted using the ext4 file system and mounted to a directory in the EC2 instance.
+5.Sample data was stored in the mounted volume, and after rebooting the instance, data persistence was verified successfully.
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
+```
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1920" height="1080" alt="Screenshot (248)" src="https://github.com/user-attachments/assets/d4ef7bcd-c843-4c30-9b39-2c8ea900ed7a" />
+
+
+
+
+
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1920" height="1080" alt="Screenshot (249)" src="https://github.com/user-attachments/assets/c3dce969-9bd5-4949-b114-e1df8a0b609d" />
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+<img width="1920" height="1080" alt="Screenshot (250)" src="https://github.com/user-attachments/assets/9ac1de87-5573-459e-b5f5-853ca581abac" />
 
 ---
 
